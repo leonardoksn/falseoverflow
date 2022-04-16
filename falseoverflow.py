@@ -53,7 +53,7 @@ while True:
         break
     elif Opcao == "1":
         NovoElemento(status,tam)
-        #Aqui é feito o encremento porém como pode ver na opção 3 não temos uma lógica de decremento na variavel de controle "status", causando assim um overflow
+        #Aqui é feito o encremento porém como pode ver na opção 3 não temos uma lógica de decremento na variavel de controle "status", causando assim um falso overflow
         status += 1
     elif Opcao == "2":
         print(d)
